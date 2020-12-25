@@ -1,0 +1,118 @@
+body {
+  background-color: #23303b;
+  color: white;
+}
+
+#header-img {
+    width: 100px;
+    height: auto;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+
+h1 {
+  font-family: 'Langar';
+}
+
+p {
+  font-family: 'Raleway';
+}
+
+.title {
+  text-align: center;
+  font-family: 'Langar';
+}
+
+#headtitle {
+  font-family: 'Langar';
+  margin-top: -75px;
+  margin-left: 230px;
+}
+
+
+
+.topnav {
+    overflow: hidden;
+  }
+
+  .topnav a {
+    color: white;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Langar';
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+#hosgeldin, #neleryaptık {
+    margin-bottom: auto;
+    text-align: center;
+  }
+  
+  #hosgeldinp, #neleryaptıkp {
+    margin-left: 550px;
+    width: 50%;
+  }
+
+#firstul {
+    display: inline-block;
+    text-align: center;
+    margin-left: 850px;
+  }
+
+.container {
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+    margin-top: -20px;
+    margin-bottom: 120px;
+  }
+
+  .container .box {
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background:  #0D1821;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  .photo {
+    width: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #box1, #box2, #box3 {
+    font-family: 'Langar';
+    color: white;
+    text-align: center;
+  }
+
+  #box2 .photo {
+    width: 200px;
+  }
+
+  #box3 .photo {
+    width: 100px;
+  }
+
+  #iletişim, #iletişimp, form {
+    text-align: center;
+    margin: 0px auto;
+    max-width: 900px;
+    min-width: 600px;
+    width: 75%;
+    padding-bottom: 30px;
+  }
