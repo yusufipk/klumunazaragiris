@@ -6,33 +6,31 @@ body {
 #header-img {
     width: 100px;
     height: auto;
-    margin-left: 100px;
-    margin-top: -50px;
 }
 
 h1 {
   font-family: 'Langar';
+  text-align: center;
 }
 
 p {
   font-family: 'Raleway';
 }
 
-.title {
-  text-align: center;
-  font-family: 'Langar';
-}
 
 #headtitle {
   font-family: 'Langar';
   margin-top: -75px;
-  margin-left: 230px;
+  margin-left: 110px;
 }
 
 
 
 .topnav {
     overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
   }
 
   .topnav a {
@@ -56,14 +54,14 @@ p {
   }
   
   #hosgeldinp, #neleryaptıkp {
-    margin-left: 550px;
-    width: 50%;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
   }
 
 #firstul {
-    display: inline-block;
     text-align: center;
-    margin-left: 850px;
+    list-style-position: inside;
   }
 
 .container {
@@ -72,7 +70,7 @@ p {
     height: 300px;
     margin: 240px auto;
     margin-top: -20px;
-    margin-bottom: 120px;
+    margin-bottom: 40px;
   }
 
   .container .box {
@@ -114,5 +112,7 @@ p {
     max-width: 900px;
     min-width: 600px;
     width: 75%;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
   }
+
+  
