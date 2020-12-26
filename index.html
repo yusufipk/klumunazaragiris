@@ -17,15 +17,15 @@
         <header id="header">
             <img src="img/photo.png" alt="logo" id="header-img">
             <h2 id="headtitle">Kırklareli Münazara Kulübü</h2>
+            <nav id="nav-bar">
+                <div class="topnav">
+                    <a class="nav-link" href="#iletişim">İletişim</a>
+                    <a class="nav-link" href="#tanışın">Eğitmenlerinizle Tanışın</a>
+                    <a class="nav-link" href="#neleryaptık">Neler yaptık?</a>
+                    <a class="nav-link" href="#hosgeldin">Hoş geldiniz</a>
+                  </div> 
+            </nav>
         </header>
-        <nav id="navbar">
-            <div class="topnav">
-                <a class="nav-link" href="#iletişim">İletişim</a>
-                <a class="nav-link" href="#tanışın">Eğitmenlerinizle Tanışın</a>
-                <a class="nav-link" href="#neleryaptık">Neler yaptık?</a>
-                <a class="nav-link" href="#hosgeldin">Hoş geldiniz</a>
-              </div> 
-        </nav>
         <div>
             <h1 id="hosgeldin">Hoş geldiniz!</h1>
                 <p id="hosgeldinp">Kırklareli Münazara web sitemize hoş geldiniz! Web sitemizde daha
@@ -85,26 +85,17 @@
 
         <div id="iletişim">
             <h1>İletişim</h1>
-            <form>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
                 <label for="eposta">E-posta adresiniz:</label>
                 <input type="email" id="email" name="eposta" placeholder="E-posta adresinizi girin." 
              pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" required>
-             <form method="POST" action="myPage.php">
-                <button id="submit" type="submit"> Gönder </button>
+                <input id="submit" type="submit" value="Gönder"> 
             </form>
             <p id="iletişimp">E-posta adresinizi girerek gelişmelerden haberdar olabilirsiniz.
                 Ayrıca dilerseniz <a href="https://discord.gg/SAkaHnH5">Discord</a> sunucumuza
                 katılabilirsiniz.
             </p>
-            
-
         </div>
-    <!--
-        <video id="video" width="320" height="240" controls>
-            <source src="/Landing Page/vid/movie.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-    -->
     </main>
     
 </body>
